@@ -1,0 +1,12 @@
+SETUP STEPS
+- yarn init
+- install following depedencies
+{ yarn add express ejs express-ejs-layouts}\
+- install nodemon as dev depedencies
+{ yarn add nodemon -D}
+- install laravel mix
+{ yarn add laravel-mix -D }
+- laravel set up
+{ yarn add cross-env -D}
+- to compile laravel
+{ npx mix watch }
