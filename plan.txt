@@ -9,4 +9,4 @@ SETUP STEPS
 - laravel set up
 { yarn add cross-env -D}
 - to compile laravel
-{ npx mix watch }
+{ npx mix watch } or { yarn watch }
