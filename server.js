@@ -8,6 +8,7 @@ const path = require('path')
 
 //set Template Engine
 app.use(expressLayout)
+app.use(express.static(__dirname+'/public/'))
 app.set('views',path.join(__dirname,'/resources/views'))
 app.set('view engine','ejs')
 
